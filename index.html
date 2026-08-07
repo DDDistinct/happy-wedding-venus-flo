@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="A small digital wedding gift website made for Venus and Flo." />
+  <meta name="theme-color" content="#9b4d3b" />
+  <title>For Venus &amp; Flo</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%92%9D%3C/text%3E%3C/svg%3E" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <canvas id="confetti-canvas" aria-hidden="true"></canvas>
+
+  <header class="site-nav"></header>
+  <section class="site-hero"></section>
+
+  <main id="main" class="page">
+    <section class="card hero-card">
+      <h2>Welcome, Venus &amp; Flo</h2>
+      <p class="lead">
+        This little website was made just for you.
+        We hope it brings joy, sweet memories, and a small gift you can enjoy together.
+      </p>
+      <div class="button-row">
+        <a class="button" href="videos.html"><span class="btn-ic" aria-hidden="true">&#9658;</span>Watch Your Videos</a>
+        <a class="button secondary" href="voucher.html">Choose Your Gift</a>
+      </div>
+    </section>
+
+    <div class="divider" aria-hidden="true"></div>
+
+    <section class="card">
+      <h2 style="text-align:center;">What is inside</h2>
+      <div class="simple-grid">
+        <a class="feature" href="videos.html">
+          <span class="feature-ic" aria-hidden="true">&#9658;</span>
+          <h3>Videos</h3>
+          <p>A few special videos prepared just for you.</p>
+        </a>
+        <a class="feature" href="voucher.html">
+          <span class="feature-ic" aria-hidden="true">&#9829;</span>
+          <h3>Gift Voucher</h3>
+          <p>Choose the gift option you like best.</p>
+        </a>
+        <a class="feature" href="voucher.html">
+          <span class="feature-ic" aria-hidden="true">&#9993;</span>
+          <h3>Message</h3>
+          <p>Send your choice so we can prepare it.</p>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer"></footer>
+
+  <script src="layout.js"></script>
+  <script src="confetti.js"></script>
+</body>
+</html>
