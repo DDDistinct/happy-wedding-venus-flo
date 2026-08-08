@@ -18,7 +18,8 @@
     "index.html": {
       eyebrow: "A Wedding Gift",
       title: "For Venus & Flo",
-      subtitle: "A small digital gift made with love, memories, and warm wishes.",
+      // subtitle: "A small digital gift made with love, memories, and warm wishes.",
+      subtitle: "This little website was made just for you. We hope it brings joy, sweet memories, and a small gift you can enjoy together.",
       showDate: true
     },
     "videos.html": {
@@ -48,11 +49,14 @@
     { file: "voucher.html", label: "Gift" }
   ];
 
-  /* ---------- 3. Videos (edit these to swap videos) ---------- */
+  /* ---------- 3. Videos (edit these to swap videos) 
+  Wedding: https://youtu.be/30GXEFSuULw
+  Happy Birthday Menus: https://youtu.be/QdV71MU5GKA
+  (dummy aqz-KE-bpKQ, jNQXAC9IVRw)---------- */
   var videos = [
-    { title: "Video 1", youtubeId: "aqz-KE-bpKQ" },
-    { title: "Video 2", youtubeId: "jNQXAC9IVRw" },
-    { title: "Video 3", youtubeId: "aqz-KE-bpKQ" }
+    { title: "Video 1", youtubeId: "30GXEFSuULw" },
+    { title: "Video 2", youtubeId: "QdV71MU5GKA" },
+    { title: "Video 3 - Coming Soon", youtubeId: "QdV71MU5GKA" }
   ];
 
   /* ---------- 4. Gift options (A, B, C are real) ---------- */
