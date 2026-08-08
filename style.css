@@ -264,11 +264,27 @@ p {
   text-align: center;
 }
 
+/* old-style lead, changed to .poem */
 .lead {
   max-width: 620px;
   margin: 0 auto 4px;
   font-size: 17px;
   color: var(--ink-soft);
+}
+
+/* Centered poem: one <p> per stanza, source newlines kept as line breaks */
+.poem {
+  max-width: 620px;
+  margin: 0 auto 22px;
+  font-family: var(--serif);
+  font-size: 19px;
+  line-height: 1.85;
+  color: var(--ink-soft);
+  white-space: pre-line;
+}
+
+.poem:last-child {
+  margin-bottom: 4px;
 }
 
 .divider {
